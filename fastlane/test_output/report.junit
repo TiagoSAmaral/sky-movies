@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='skymoviesTests.xctest' tests='23' failures='0'>
+  <testsuite name='skymoviesTests.ApiPathTests' tests='1' failures='0'>
+    <testcase classname='skymoviesTests.ApiPathTests' name='Test_bulid_Url_Paths__Paths_in_Debug__Get_list_movies_Url' time='0.091'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.EnvironmentTests' tests='1' failures='0'>
+    <testcase classname='skymoviesTests.EnvironmentTests' name='Test_detect_environment____Debug_Environment' time='0.002'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.IdentifiersTests' tests='1' failures='0'>
+    <testcase classname='skymoviesTests.IdentifiersTests' name='Test_Extension_Identifiers____Detect_name_of_class' time='0.001'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.MoviesListCellTests' tests='3' failures='0'>
+    <testcase classname='skymoviesTests.MoviesListCellTests' name='Tests_Cell____Build_URL_getImage' time='0.010'/>
+    <testcase classname='skymoviesTests.MoviesListCellTests' name='Tests_Cell____Set_color_text_White' time='0.003'/>
+    <testcase classname='skymoviesTests.MoviesListCellTests' name='Tests_Cell____Set_cell' time='0.012'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.MoviesListNetworkTests' tests='1' failures='0'>
+    <testcase classname='skymoviesTests.MoviesListNetworkTests' name='Integration_Network_Module_MoviesList__Requests__Get_List_Movies' time='0.044'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.MoviesListTests' tests='2' failures='0'>
+    <testcase classname='skymoviesTests.MoviesListTests' name='Tests_MoviesList____request_List_movies' time='0.020'/>
+    <testcase classname='skymoviesTests.MoviesListTests' name='Tests_MoviesList____Load_data_to_view' time='0.004'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.MoviesListViewTests' tests='4' failures='0'>
+    <testcase classname='skymoviesTests.MoviesListViewTests' name='Tests_MoviesListView____Set_Apperance_Color' time='0.004'/>
+    <testcase classname='skymoviesTests.MoviesListViewTests' name='Tests_MoviesListView____Check_Title' time='0.003'/>
+    <testcase classname='skymoviesTests.MoviesListViewTests' name='Tests_MoviesListView____Check_RefreshControl_not_nil' time='0.008'/>
+    <testcase classname='skymoviesTests.MoviesListViewTests' name='Tests_MoviesListView____Check_UpdateData' time='0.017'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.MoviesModelTests' tests='2' failures='0'>
+    <testcase classname='skymoviesTests.MoviesModelTests' name='Create_List_of_Movie____Create_List' time='0.004'/>
+    <testcase classname='skymoviesTests.MoviesModelTests' name='Create_List_of_Movie____Nil_result' time='0.001'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.NetworkTests' tests='1' failures='0'>
+    <testcase classname='skymoviesTests.NetworkTests' name='Test_Network_class____Test_Get_Method' time='0.006'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.RouterTests' tests='2' failures='0'>
+    <testcase classname='skymoviesTests.RouterTests' name='Test_Router__Navigation__Go_to_MoviesList' time='0.004'/>
+    <testcase classname='skymoviesTests.RouterTests' name='Test_Router__Navigation__BuildView' time='0.002'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.UITableViewControllerTests' tests='2' failures='0'>
+    <testcase classname='skymoviesTests.UITableViewControllerTests' name='Test_Extensions____Message_in_empty_TableView' time='0.002'/>
+    <testcase classname='skymoviesTests.UITableViewControllerTests' name='Test_Extensions____Not_Show_Message_when_TableView_not_empty' time='0.003'/>
+  </testsuite>
+  <testsuite name='skymoviesTests.UIViewControllerExtensionsTests' tests='3' failures='0'>
+    <testcase classname='skymoviesTests.UIViewControllerExtensionsTests' name='Test_Extensions____Show_Alert_Loading' time='0.014'/>
+    <testcase classname='skymoviesTests.UIViewControllerExtensionsTests' name='Test_Extensions____Hidden_Alert_Loading' time='0.045'/>
+    <testcase classname='skymoviesTests.UIViewControllerExtensionsTests' name='Test_Extensions____Show_Alert_Message' time='0.001'/>
+  </testsuite>
+</testsuites>

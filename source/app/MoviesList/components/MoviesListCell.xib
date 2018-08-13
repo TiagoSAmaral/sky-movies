@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoviesListCell" id="Kqw-H1-hHU" customClass="MoviesListCell" customModule="skymovies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="275"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="275"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="OPn-Ln-VhG">
+                        <rect key="frame" x="5" y="5" width="160" height="224"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgu-rg-Iwa">
+                        <rect key="frame" x="5" y="234" width="160" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="OPn-Ln-VhG" firstAttribute="leading" secondItem="Kqw-H1-hHU" secondAttribute="leading" constant="5" id="4UY-38-uD4"/>
+                <constraint firstItem="OPn-Ln-VhG" firstAttribute="top" secondItem="Kqw-H1-hHU" secondAttribute="top" constant="5" id="Bum-dO-38b"/>
+                <constraint firstAttribute="bottom" secondItem="OPn-Ln-VhG" secondAttribute="bottom" constant="46" id="P8b-f8-Yhy"/>
+                <constraint firstAttribute="trailing" secondItem="OPn-Ln-VhG" secondAttribute="trailing" constant="5" id="TRg-o3-aKF"/>
+                <constraint firstItem="Pgu-rg-Iwa" firstAttribute="top" secondItem="OPn-Ln-VhG" secondAttribute="bottom" constant="5" id="eym-KV-ZM2"/>
+                <constraint firstAttribute="trailing" secondItem="Pgu-rg-Iwa" secondAttribute="trailing" constant="5" id="hAD-1H-KNe"/>
+                <constraint firstAttribute="bottom" secondItem="Pgu-rg-Iwa" secondAttribute="bottom" constant="5" id="npL-2A-xv9"/>
+                <constraint firstItem="Pgu-rg-Iwa" firstAttribute="leading" secondItem="Kqw-H1-hHU" secondAttribute="leading" constant="5" id="svX-33-U4i"/>
+            </constraints>
+            <size key="customSize" width="130" height="178"/>
+            <connections>
+                <outlet property="cover" destination="OPn-Ln-VhG" id="BNt-G7-7KO"/>
+                <outlet property="title" destination="Pgu-rg-Iwa" id="JFD-f8-ph1"/>
+            </connections>
+            <point key="canvasLocation" x="50" y="49.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="800" height="600"/>
+    </resources>
+</document>

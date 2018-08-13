@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire"
+github "onevcat/Kingfisher"
+github "AliSoftware/OHHTTPStubs"
+github "Quick/Quick"
+github "Quick/Nimble"
